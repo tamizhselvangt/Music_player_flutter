@@ -8,6 +8,9 @@ class BottomIconBar extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(top: 20.0),
       child: BottomNavigationBar(
+        onTap: (covariant){
+          Navigator.push( context, MaterialPageRoute(builder: (context)=> AddMusic()));
+        },
         type: BottomNavigationBarType.fixed,
         backgroundColor: Colors.deepPurple.shade800,
         unselectedItemColor: Colors.white54,

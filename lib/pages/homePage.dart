@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:music_app/utilities/constants.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:music_app/components/bottom_bar.dart';
 import 'package:music_app/components/appBar.dart';
 

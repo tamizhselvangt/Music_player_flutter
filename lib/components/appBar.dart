@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 
-
 class CustomAppbar extends StatelessWidget {
 
   @override
@@ -9,13 +8,12 @@ class CustomAppbar extends StatelessWidget {
     return  Padding(
       padding: EdgeInsets.symmetric(horizontal: 20),
       child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          IconButton(onPressed: (){}, icon: Icon(Icons.grid_view_rounded,
-            size: 30.0,
-            color: Colors.white70,)),
-          CircleAvatar(
-          )
+          // IconButton(onPressed: (){}, icon: Icon(Icons.grid_view_rounded,
+          //   size: 30.0,
+          //   color: Colors.white70,)),
+          CircleAvatar()
         ],
 
       ),

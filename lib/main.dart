@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'pages/homePage.dart';
-
+import 'pages/sideMenu.dart';
+import 'pages/entry_point.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomePage(),
+      home: Entry_Point(),
     );
   }
 }
